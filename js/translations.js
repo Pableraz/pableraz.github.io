@@ -42,7 +42,7 @@ const translations = {
         "cert1-org": "Secretaría de Educación Pública (SEP)",
         "cert1-time": "June 2025",
         "cert1-desc": "490 hours of theoretical and practical training issued through Preparatoria Federal EMS-2/49 \"José Vasconcelos\".",
-        "cert2-title": "Platzi Scholarships (Televisa Becalos)",
+        "cert2-title": "Additional Technical Courses",
         "cert2-time": "Ongoing",
         "cert2-li1": "<strong>Completed:</strong> Complete AI for Productivity Course",
         "cert2-li2": "<strong>In Progress:</strong> Product Management",
@@ -60,6 +60,7 @@ const translations = {
         "contact-title": "Get In Touch",
         "contact-sub": "I'm currently looking for new opportunities in the US. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
         "contact-email": "Email Me",
+        "contact-phone": "Phone",
         "footer-rights": "&copy; 2026 Jose Pablo Morales Tirado. All rights reserved."
     },
     es: {
@@ -105,7 +106,7 @@ const translations = {
         "cert1-org": "Secretaría de Educación Pública (SEP)",
         "cert1-time": "Junio 2025",
         "cert1-desc": "490 horas de capacitación teórica y práctica emitidas a través de la Preparatoria Federal EMS-2/49 \"José Vasconcelos\".",
-        "cert2-title": "Becas Platzi (Televisa Bécalos)",
+        "cert2-title": "Cursos Técnicos Adicionales",
         "cert2-time": "En Curso",
         "cert2-li1": "<strong>Completado:</strong> Curso de IA para la Productividad",
         "cert2-li2": "<strong>En Curso:</strong> Gestión de Producto",
@@ -123,6 +124,7 @@ const translations = {
         "contact-title": "Ponte en Contacto",
         "contact-sub": "Actualmente estoy buscando nuevas oportunidades en EE. UU. Ya sea que tengas una pregunta o solo quieras saludar, ¡intentaré responderte lo antes posible!",
         "contact-email": "Enviarme un correo",
+        "contact-phone": "Teléfono",
         "footer-rights": "&copy; 2026 Jose Pablo Morales Tirado. Todos los derechos reservados."
     }
 };

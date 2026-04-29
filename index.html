@@ -7,7 +7,7 @@
     <meta name="description"
         content="Portfolio of Jose Pablo Morales Tirado (Pableraz) - Mechatronics Engineering Student">
     <title>Jose Pablo Morales Tirado | Portfolio</title>
-    
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
 
@@ -67,7 +67,7 @@
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="images/Selfie.jpeg" alt="Jose Pablo Morales" class="profile-photo">
+                    <img src="images/selfie.jpeg" alt="Jose Pablo Morales" class="profile-photo">
                 </div>
             </div>
             <div class="scroll-indicator">
@@ -86,7 +86,12 @@
                 </div>
                 <div class="about-content">
                     <div class="about-text">
-                        <p data-i18n="about-p1">I am a passionate Mechatronics Engineering student with practical industrial experience and a strong focus on the Internet of Things (IoT), robotics, and Artificial Intelligence. By combining rigorous academic training with real-world skills in industrial operations and maintenance, I thrive in fast-paced environments where innovative problem-solving is essential. Motivated by a passion for advancing industrial automation and edge AI, I am actively pursuing professional engineering opportunities.
+                        <p data-i18n="about-p1">I am a passionate Mechatronics Engineering student with practical
+                            industrial experience and a strong focus on the Internet of Things (IoT), robotics, and
+                            Artificial Intelligence. By combining rigorous academic training with real-world skills in
+                            industrial operations and maintenance, I thrive in fast-paced environments where innovative
+                            problem-solving is essential. Motivated by a passion for advancing industrial automation and
+                            edge AI, I am actively pursuing professional engineering opportunities.
                         </p>
 
                         <div class="personal-details">
@@ -135,6 +140,8 @@
                                 alt="ESP-IDF">
                             <img src="https://img.shields.io/badge/FreeRTOS-20232A?style=for-the-badge&logo=freertos&logoColor=white"
                                 alt="FreeRTOS">
+                            <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white"
+                                alt="Raspberry Pi">
                         </div>
                     </div>
 
@@ -160,6 +167,20 @@
                             <span class="skill-tag" data-i18n="tag-auto">Industrial Automation</span>
                             <span class="skill-tag" data-i18n="tag-maint">Industrial Maintenance</span>
                             <span class="skill-tag" data-i18n="tag-log">Logistics & Logistics Admin</span>
+                            <span class="skill-tag" data-i18n="tag-sysadmin">SysAdmin & Networking</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category card">
+                        <h3><i class="fas fa-server"></i> <span data-i18n="skills-infra">Infrastructure & Servers</span>
+                        </h3>
+                        <div class="badge-container">
+                            <img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white"
+                                alt="Proxmox">
+                            <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"
+                                alt="Docker">
+                            <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"
+                                alt="Linux">
                         </div>
                     </div>
                 </div>
@@ -218,12 +239,12 @@
                             <h4 data-i18n="cert2-title">Additional Technical Courses</h4>
                             <p class="organization">Online Platforms</p>
                             <span class="timeline"><i class="far fa-calendar-alt"></i> <span
-                                    data-i18n="cert2-time">Ongoing</span></span>
+                                    data-i18n="cert2-time">Completed</span></span>
                             <ul class="experience-list">
                                 <li data-i18n="cert2-li1"><strong>Completed:</strong> Complete AI for Productivity
                                     Course</li>
-                                <li data-i18n="cert2-li2"><strong>In Progress:</strong> Product Management</li>
-                                <li data-i18n="cert2-li3"><strong>In Progress:</strong> IoT with ESP32</li>
+                                <li data-i18n="cert2-li2"><strong>Completed:</strong> Product Management</li>
+                                <li data-i18n="cert2-li3"><strong>Completed:</strong> IoT with ESP32</li>
                             </ul>
                         </div>
                     </div>
@@ -241,13 +262,31 @@
                         Edge AI.</p>
                 </div>
 
-                <div class="projects-grid" style="grid-template-columns: 1fr; margin-top: 2rem;">
-                    <div class="project-card card" style="text-align: center; padding: 3rem 2rem;">
-                        <i class="fas fa-tools" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 1.5rem;"></i>
-                        <h3 data-i18n="proj-wip-title" style="font-size: 1.5rem; margin-bottom: 1rem;">Under Construction</h3>
-                        <p data-i18n="proj-wip-desc" style="max-width: 600px; margin: 0 auto; color: var(--text-muted);">
-                            Great things take time! I am currently working on documenting and polishing my latest projects in IoT, Edge AI, and Automation. Please check back soon to see my full portfolio of work.
-                        </p>
+                <div class="projects-grid">
+                    <div class="project-card card">
+                        <div class="project-img-placeholder">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3 data-i18n="proj4-title">High-Performance HomeLab: Integrated Infrastructure, Storage &
+                                Intelligent Security</h3>
+                            <p data-i18n="proj4-desc">Engineered a resilient, enterprise-grade HomeLab environment by
+                                transforming a Dell Precision workstation into a bare-metal Proxmox VE server. This
+                                project bridges x86 architecture and ARM embedded systems, featuring a Raspberry Pi 4B
+                                acting as an independent DNS and network security node via AdGuard Home. I successfully
+                                integrated an NVIDIA Quadro P620 for AI workloads—overcoming complex driver and Linux
+                                Secure Boot challenges—while deploying an OpenMediaVault NAS using WD Red Plus drives
+                                with ZFS for maximum data integrity. Furthermore, I orchestrated self-hosted services
+                                including Immich and Home Assistant through Docker, achieving a secure, highly
+                                available, and AI-ready local infrastructure.</p>
+                            <div class="project-tags">
+                                <span data-i18n="proj4-tech1">Proxmox VE</span>
+                                <span data-i18n="proj4-tech2">Linux & Docker</span>
+                                <span data-i18n="proj4-tech3">ZFS & OpenMediaVault</span>
+                                <span data-i18n="proj4-tech4">Raspberry Pi & AdGuard</span>
+                                <span>NVIDIA GPU</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -259,7 +298,8 @@
                 <div class="section-header center">
                     <h2 data-i18n="contact-title">Get In Touch</h2>
                     <div class="header-line"></div>
-                    <p class="section-subtitle" data-i18n="contact-sub">I'm currently open to new opportunities. Feel free to reach out via LinkedIn, GitHub or email — I'll get back to you as soon as possible!</p>
+                    <p class="section-subtitle" data-i18n="contact-sub">I'm currently open to new opportunities. Feel
+                        free to reach out via LinkedIn, GitHub or email — I'll get back to you as soon as possible!</p>
                 </div>
 
                 <div class="contact-methods">
